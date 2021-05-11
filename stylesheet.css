@@ -28,12 +28,16 @@ font-family: 'Roboto', sans-serif;
     cursor: pointer;
 }
 
+
+
 .headerbuttons h2{
     background-color: #EBA1A1;
     border: #EBA1A1;
     border-radius: 15px;
     display: inline;
     padding: 5px 5px 5px 5px;
+    font-style: italic;
+    font-weight: normal;
 }
 
 .headerbuttons h2:hover{
@@ -47,9 +51,11 @@ font-family: 'Roboto', sans-serif;
     border: #e1e1e1;
     border-radius: 15px;
     width: 280px;
+    height: 28px;
     display: flex;
     justify-content: space-between;
     padding: 5px 5px;
+    text-align: center;
 }
 
 .headersearch h2{
@@ -113,8 +119,10 @@ font-family: 'Roboto', sans-serif;
 }
 
 .directores{
-    display: flex;
-    width: 50%;
+    float: left;
+    width: 45%;
+    padding: 5px 5px;
+    display: block;
 }
 
 .directores img:hover{
@@ -139,8 +147,10 @@ font-family: 'Roboto', sans-serif;
 }
 
 .noticias{
-    display: flex;
-    width: 50%;
+    float: right;
+    width: 45%;
+    display: block;
+    padding: 5px 5px;
 }
 
 .cards_noticias img:hover{
@@ -209,11 +219,30 @@ font-family: 'Roboto', sans-serif;
     font-style: italic;
 }
 
+.peliculas{
+    display: block;
+    float: left;
+    padding: 5px 5px;
+    width: 50%;
+}
+
 .cards_peliculas img:hover{
     cursor: pointer;
     opacity: 0.5;
     transition-delay: 0.08s;
 }
+
+.actores{
+    display: block;
+    float: right;
+    padding: 5px 5px;
+    width: 45%;
+}
+
+.actores img:hover{
+    cursor: pointer;
+    opacity: 0.5;
+    transition-delay: 0.08s;
 }
 
 .actores_texto{
@@ -223,6 +252,7 @@ font-family: 'Roboto', sans-serif;
 .actores_texto p1{
     color: #C71D1D;
     font-weight: bolder;
+    cursor: pointer;
 }
 
 .actores_texto small{
@@ -234,12 +264,22 @@ body{
     background-color: #E9E9E9;
 }
 
+main{
+    display: block;
+}
+
 footer{
     background-color: #1a1a1a;
     color: #e1e1e1;
     padding: 25px 25px;
     display: flex;
     justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+
+.footer_one{
+    cursor: pointer;
 }
 
 .footer_two{
@@ -248,4 +288,42 @@ footer{
 
 .footer_three{
     text-align: right;
+}
+
+.footer_three img:hover{
+    cursor: pointer;
+    opacity: 0.5;
+    transition-delay: 0.08s;
+}
+
+#button1{
+    background-color: white;
+    border: white;
+    border-radius: 15px;
+    padding: 5px 5px;
+    width: 286px;
+    cursor: text;
+    color: #1a1a1a;
+    font-style: italic;
+}
+
+#button2{
+    background-color: #C71D1D;
+    border: #C71D1D;
+    border-radius: 15px;
+    padding: 5px 5px;
+    width: 155px;
+}
+
+#button1 h2{
+    padding: 5px 5px;
+}
+
+#button2 h2{
+    padding: 5px 5px;
+}
+
+.buttons_sep{
+    display: flex;
+    justify-content: space-around;
 }
