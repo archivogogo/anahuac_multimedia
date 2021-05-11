@@ -16,11 +16,30 @@ font-family: 'Roboto', sans-serif;
     padding: 8px;
 }
 
+.header h1:hover{
+    opacity: 0.5;
+    transition-delay: 0.08s;
+    cursor: pointer;
+}
+
+.header img:hover{
+    opacity: 0.5;
+    transition-delay: 0.08s;
+    cursor: pointer;
+}
+
 .headerbuttons h2{
     background-color: #EBA1A1;
     border: #EBA1A1;
     border-radius: 15px;
     display: inline;
+    padding: 5px 5px 5px 5px;
+}
+
+.headerbuttons h2:hover{
+    opacity: 0.5;
+    transition-delay: 0.008s;
+    cursor: pointer;
 }
 
 .headersearch{
@@ -30,10 +49,15 @@ font-family: 'Roboto', sans-serif;
     width: 280px;
     display: flex;
     justify-content: space-between;
+    padding: 5px 5px;
 }
 
 .headersearch h2{
     color: #1a1a1a;
+    cursor:text;
+    font-size: smaller;
+    font-style: italic;
+    align-self: baseline;
 }
 
 .navbar{
@@ -89,22 +113,121 @@ font-family: 'Roboto', sans-serif;
 }
 
 .directores{
+    display: flex;
     width: 50%;
-    margin: 5px 5px;
 }
 
-.cards_directores{
-    display: inline-block;
+.directores img:hover{
+    transition-delay: 0.08s;
+    cursor: pointer;
+    opacity: 0.5;
 }
 
-.cards_directores p{
+.directores_texto{
     background-color: white;
-    display: block;
+}
+
+.directores_texto p1{
+    color: #C71D1D;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.directores_texto small{
+    color: #C71D1D;
+    font-style: italic;
 }
 
 .noticias{
+    display: flex;
     width: 50%;
-    margin: 5px 5px;
+}
+
+.cards_noticias img:hover{
+    cursor: pointer;
+    opacity: 0.5;
+    transition-delay: 0.08s;
+}
+
+.cards_1{
+    background-color: white;
+}
+
+.cards_1 p1{
+    color: #C71D1D;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.cards_1 small{
+    color: #C71D1D;
+    font-style: italic;
+}
+
+.cards_2{
+    background-color: white;
+}
+
+.cards_2 p1{
+    color: #C71D1D;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.cards_2 small{
+    color: #C71D1D;
+    font-style: italic;
+}
+
+.cards_3{
+    background-color: white;
+}
+
+.cards_3 p1{
+    color: #C71D1D;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.cards_3 small{
+    color: #C71D1D;
+    font-style: italic;
+}
+
+.cards_4{
+    background-color: white;
+}
+
+.cards_4 p1{
+    color: #C71D1D;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.cards_4 small{
+    color: #C71D1D;
+    font-style: italic;
+}
+
+.cards_peliculas img:hover{
+    cursor: pointer;
+    opacity: 0.5;
+    transition-delay: 0.08s;
+}
+}
+
+.actores_texto{
+    background-color: white;
+}
+
+.actores_texto p1{
+    color: #C71D1D;
+    font-weight: bolder;
+}
+
+.actores_texto small{
+    color: #C71D1D;
+    font-style: italic;
 }
 
 body{
