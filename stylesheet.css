@@ -280,6 +280,7 @@ footer{
 
 .footer_one{
     cursor: pointer;
+    font-size: smaller;
 }
 
 .footer_two{
@@ -288,6 +289,8 @@ footer{
 
 .footer_three{
     text-align: right;
+    font-size: smaller;
+    font-style: normal;
 }
 
 .footer_three img:hover{
