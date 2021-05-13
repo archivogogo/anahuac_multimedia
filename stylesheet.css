@@ -88,7 +88,7 @@ font-family: 'Roboto', sans-serif;
 
 .heroland{
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("../imagenes/acompañamiento/heroposterwallpaper.png");
+    url("imagenes/acompañamiento/heroposterwallpaper.png");
     height: 800px;
     background-position: center;
     background-repeat: none;
