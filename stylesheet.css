@@ -8,7 +8,7 @@ font-family: 'Roboto', sans-serif;
 
 .header{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     text-align: center;
     align-items: center;
     background-color: #C71D1D;
@@ -27,8 +27,6 @@ font-family: 'Roboto', sans-serif;
     transition-delay: 0.08s;
     cursor: pointer;
 }
-
-
 
 .headerbuttons h2{
     background-color: #EBA1A1;
@@ -63,7 +61,7 @@ font-family: 'Roboto', sans-serif;
     cursor:text;
     font-size: smaller;
     font-style: italic;
-    align-self: baseline;
+    align-self: center;
 }
 
 .navbar{
@@ -99,7 +97,7 @@ font-family: 'Roboto', sans-serif;
 .herotext{
     text-align: center;
     position: absolute;
-    top: 40%;
+    top: 35%;
     bottom: 50%;
     color: #e1e1e1;
     width: 100%;
@@ -120,9 +118,14 @@ font-family: 'Roboto', sans-serif;
 
 .directores{
     float: left;
-    width: 45%;
-    padding: 5px 5px;
-    display: block;
+    width: 50%;
+}
+
+.titulodirectores{
+    display: flex;
+    flex-direction: start;
+    align-items: baseline;
+    justify-content: start;
 }
 
 .directores img:hover{
@@ -147,10 +150,15 @@ font-family: 'Roboto', sans-serif;
 }
 
 .noticias{
-    float: right;
-    width: 45%;
-    display: block;
-    padding: 5px 5px;
+    float: left;
+    width: 50%;
+}
+
+.titulonoticias{
+    display: flex;
+    flex-direction: start;
+    align-items: baseline;
+    justify-content: start;
 }
 
 .cards_noticias img:hover{
@@ -204,6 +212,7 @@ font-family: 'Roboto', sans-serif;
     font-style: italic;
 }
 
+
 .cards_4{
     background-color: white;
 }
@@ -220,9 +229,7 @@ font-family: 'Roboto', sans-serif;
 }
 
 .peliculas{
-    display: block;
     float: left;
-    padding: 5px 5px;
     width: 50%;
 }
 
@@ -233,10 +240,8 @@ font-family: 'Roboto', sans-serif;
 }
 
 .actores{
-    display: block;
-    float: right;
-    padding: 5px 5px;
-    width: 45%;
+    float: left;
+    width: 50%;
 }
 
 .actores img:hover{
@@ -274,7 +279,6 @@ footer{
     padding: 25px 25px;
     display: flex;
     justify-content: space-between;
-    width: 100%;
     align-items: center;
 }
 
@@ -285,6 +289,9 @@ footer{
 
 .footer_two{
     text-align: center;
+    position: absolute;
+    left: 655px;
+    top: 3310px;
 }
 
 .footer_three{
@@ -316,6 +323,7 @@ footer{
     border-radius: 15px;
     padding: 5px 5px;
     width: 155px;
+    cursor: pointer;
 }
 
 #button1 h2{
